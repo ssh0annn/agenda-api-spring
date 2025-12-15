@@ -51,5 +51,5 @@ La aplicación maneja una única entidad llamada **User**, persistida en la tabl
 │ name            │
 │ email           │
 └─────────────────┘
-```
+
 

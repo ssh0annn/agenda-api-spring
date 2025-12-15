@@ -51,3 +51,36 @@ La aplicación maneja una única entidad llamada **User**, persistida en la tabl
 │ name            │
 │ email           │
 └─────────────────┘
+```
+🌐 Endpoints de la API (Rutas + JSON Explicado)
+➕ Crear Usuario
+
+POST /user
+
+📌 Descripción:
+Crea un nuevo usuario y lo guarda en la base de datos.
+
+📥 Request Body (JSON):
+
+{
+  "username": "jdoe",
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+
+
+📤 Response (201 OK):
+
+{
+  "id": 1,
+  "username": "jdoe",
+  "name": "John Doe",
+  "email": "john@example.com"
+}
+
+
+📎 Notas:
+
+El id se genera automáticamente.
+
+No es necesario enviarlo en el request.

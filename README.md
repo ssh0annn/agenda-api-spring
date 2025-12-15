@@ -1,4 +1,4 @@
-# 🚀 Spring CRUD Backend – Spring Boot + PostgreSQL
+# 🚀 Agenda Backend – Spring Boot + PostgreSQL
 
 API REST desarrollada con **Spring Boot** que implementa un CRUD completo de usuarios utilizando **Spring Data JPA** y **PostgreSQL** como base de datos.  
 Proyecto ideal como base para aplicaciones frontend (React, Angular, etc.) o como backend de aprendizaje y portafolio.
